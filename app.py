@@ -264,7 +264,7 @@ def generate_audio():
     # Display mock audio info
     for audio in audio_files:
         st.write(f"🎵 **{audio['speaker'].title()}**: {audio['dialogue']}")
-        st.caption(f"Voice: {st.session_state.voice_assignments[audio['speaker']]}")}
+        st.caption(f"Voice: {st.session_state.voice_assignments[audio['speaker']]}")
 
 def generate_video():
     """Generate video from audio and characters"""
